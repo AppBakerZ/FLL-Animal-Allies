@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.myapp429212" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.fll.animal.allies" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>FLL Animal Allies</name>
-  <description>An Ionic Framework and Cordova project.</description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+  <description>Get ready. Get set. Roar! Or you could bark, quack, or squeak,
+    because the 2016 ANIMAL ALLIESSM season is all about our furry, feathered, and finned friends</description>
+  <author email="info@appbakerz.com" href="http://appbakerz.com/"> AppBakerZ Pvt. Ltd. </author>
   <content src="index.html"/>
   <access origin="*"/>
   <allow-intent href="http://*/*"/>

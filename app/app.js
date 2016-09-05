@@ -13,8 +13,8 @@ var core_1 = require('@angular/core');
 var ionic_angular_1 = require('ionic-angular');
 var ionic_native_1 = require('ionic-native');
 var tabs_1 = require('./pages/tabs/tabs');
-var MyApp = (function () {
-    function MyApp(platform, menuCtrl) {
+var App = (function () {
+    function App(platform, menuCtrl) {
         this.platform = platform;
         this.menuCtrl = menuCtrl;
         this.rootPage = tabs_1.TabsPage;
@@ -24,13 +24,13 @@ var MyApp = (function () {
             ionic_native_1.StatusBar.styleDefault();
         });
     }
-    MyApp = __decorate([
+    App = __decorate([
         core_1.Component({
             template: "\n  <ion-menu [content]=\"appContent\">\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item detail-none>Close Menu</button>\n    </ion-list>\n  </ion-content>\n</ion-menu>\n  <ion-nav #appContent [root]=\"rootPage\"></ion-nav>"
         }), 
         __metadata('design:paramtypes', [ionic_angular_1.Platform, ionic_angular_1.MenuController])
-    ], MyApp);
-    return MyApp;
+    ], App);
+    return App;
 })();
-exports.MyApp = MyApp;
+exports.App = App;
 ionic_angular_1.ionicBootstrap(MyApp);

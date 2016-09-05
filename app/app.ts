@@ -16,7 +16,7 @@ import {TabsPage} from './pages/tabs/tabs';
   <ion-nav #appContent [root]="rootPage"></ion-nav>`
 })
 
-export class MyApp {
+export class App {
 
   private rootPage: any;
 
