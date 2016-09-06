@@ -26,7 +26,7 @@ var App = (function () {
     }
     App = __decorate([
         core_1.Component({
-            template: "\n  <ion-menu [content]=\"appContent\">\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item detail-none>Close Menu</button>\n    </ion-list>\n  </ion-content>\n</ion-menu>\n  <ion-nav #appContent [root]=\"rootPage\"></ion-nav>"
+            template: "\n  <ion-menu [content]=\"appContent\">\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item detail-none full>FAQ</button>\n      <button menuClose ion-item detail-none full>www.first-lego-league.org</button>\n      <button menuClose ion-item detail-none full>Mission Video</button>\n      <button menuClose ion-item detail-none full>Imprint</button>\n    </ion-list>\n  </ion-content>\n</ion-menu>\n  <ion-nav #appContent [root]=\"rootPage\"></ion-nav>"
         }), 
         __metadata('design:paramtypes', [ionic_angular_1.Platform, ionic_angular_1.MenuController])
     ], App);

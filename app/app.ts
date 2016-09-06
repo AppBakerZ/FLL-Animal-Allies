@@ -9,7 +9,10 @@ import {TabsPage} from './pages/tabs/tabs';
   <ion-menu [content]="appContent">
   <ion-content>
     <ion-list>
-      <button menuClose ion-item detail-none>Close Menu</button>
+      <button menuClose ion-item detail-none full>FAQ</button>
+      <button menuClose ion-item detail-none full>www.first-lego-league.org</button>
+      <button menuClose ion-item detail-none full>Mission Video</button>
+      <button menuClose ion-item detail-none full>Imprint</button>
     </ion-list>
   </ion-content>
 </ion-menu>
