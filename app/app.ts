@@ -31,4 +31,4 @@ export class App {
   }
 }
 
-ionicBootstrap(MyApp);
+ionicBootstrap(App);

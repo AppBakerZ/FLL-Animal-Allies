@@ -33,4 +33,4 @@ var App = (function () {
     return App;
 })();
 exports.App = App;
-ionic_angular_1.ionicBootstrap(MyApp);
+ionic_angular_1.ionicBootstrap(App);
