@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {Platform, NavController, AlertController} from 'ionic-angular';
+import { SocialSharing } from 'ionic-native';
 
 @Component({
   templateUrl: 'build/pages/home/home.html'
@@ -49,6 +50,35 @@ export class HomePage {
     });
     prompt.present();
   }
+  referencePoints() {
+    let prompt = this.alertCtrl.create({
+      title: 'Reference Points',
+      subTitle: `Lorem Ipsum is simply dummy text of the printing and typesetting industry
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley`,
+      inputs: [
+        {
+          name: 'Reference Points ' +
+          ')',
+          placeholder: 'Reference Points'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
   showReset() {
     let prompt = this.alertCtrl.create({
       title: 'Save Score',
@@ -70,4 +100,14 @@ export class HomePage {
     });
     prompt.present();
   }
+
+  otherShare(){
+    SocialSharing.share("Genral Share Sheet",null/*Subject*/,null/*File*/ /*,"http://pointdeveloper.com"*/)
+      .then(()=>{
+      },
+      ()=>{
+      })
+
+  }
+
 }
